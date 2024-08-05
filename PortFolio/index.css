@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 5px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+    
+nav
+{
+    border: solid rgb(234, 224, 224) 1px ;
+    background-color: rgba(245, 245, 245, 0.69);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 390px;
+}
+nav ul{
+    padding: 0;
+    font-size: 15px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo img{
+  
+    height: 45px;
+    width: 45px;
+  
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+.about-me{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 130px;
+}
+.photo img{
+    border: solid black 1px;
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+}
+.info{
+    width: 50%;
+}
+.info h1{
+    font-weight: 500;
+}
+.info h5{
+    font-weight: 200;
+}
+.info p{
+    font-size: 12px;
+}
+
+
+
+
+.technology {
+    max-width: 800px;
+    gap:5px; 
+}
+.technology h1 {
+    font-family: 'Arial', sans-serif;
+    color: #0a0a0a;
+    font-size: 2em;
+    
+}
+.techFoot h6{
+    margin-left: 15px;
+}
+
+
+.scroll-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tech_img {
+    display: inline-block;
+    text-align: center;
+    width: 120px; /* Adjust width as needed */
+    margin: 10px;
+    vertical-align: top;
+}
+
+.tech_img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tech_img img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tech_img h4 {
+    margin: 10px 0 0 0;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.certification {
+    max-width: 800px;
+    gap:5px; 
+}
+.certification h1 {
+    font-family: 'Arial', sans-serif;
+    color: #0a0a0a;
+    font-size: 2em;
+    
+}
+.certFoot h6{
+    margin-left: 15px;
+}
+
+
+.ceritem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 15px;
+}
+
+.ceritem img {
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 2px solid #292222c4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: zoom-in e-resize;
+    
+}
+
+.ceritem img:hover {
+    transform: scale(1.20);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.link {
+    max-width: 800px;
+    gap:5px; 
+}
+.link h1 {
+    font-family: 'Arial', sans-serif;
+    color: #0a0a0a;
+    font-size: 2em;
+    
+}
+.linkFoot h6{
+    margin-left: 15px;
+}
+
+
+
+.linkmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 1px solid darkred;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    gap: 5px;
+    padding: 20px;
+}
+.ldn, .gfg, .github, .cfs {
+    
+    transition: transform 0.3s ease-in-out;
+    
+}
+.ldn:hover, .gfg:hover, .github:hover, .cfs:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ldn img, .gfg img, .github img, .cfs img {
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin: 0 auto;
+}
